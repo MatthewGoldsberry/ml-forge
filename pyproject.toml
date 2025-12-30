@@ -9,4 +9,15 @@ dependencies = []
 [dependency-groups]
 dev = [
     "mkdocs-material>=9.7.1",
+    "ruff>=0.14.10",
 ]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.format] 
+quote-style = "double" 
+indent-style = "space"
+
+[tool.ruff.lint] 
+select = ["ALL"]
